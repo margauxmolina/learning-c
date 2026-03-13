@@ -14,4 +14,5 @@ int main() {
     int profitMargin = (take / costPrice) * 100;
     printf("The profit margin is: %d%%\n", profitMargin);
 
+
 }
