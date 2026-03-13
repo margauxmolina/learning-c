@@ -11,5 +11,7 @@ int main() {
     sellingPrice = 12.66;
     double take = sellingPrice - costPrice;
     printf("The profit is: %f\n", take);
+    int profitMargin = (take / costPrice) * 100;
+    printf("The profit margin is: %d%%\n", profitMargin);
 
 }
