@@ -6,8 +6,9 @@ int main() {
     printf("testing\n");
 
     //testing variables 
-    double costPrice = 4.55; 
+    const double costPrice = 4.55; 
     double sellingPrice = 8.99;
+    sellingPrice = 12.66;
     double take = sellingPrice - costPrice;
     printf("The profit is: %f\n", take);
 
